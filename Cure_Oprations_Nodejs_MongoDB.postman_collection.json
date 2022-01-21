@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "06c3eec7-d7f2-4203-8f83-5e958321ba85",
+		"name": "Cure_Oprations_Nodejs_MongoDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "add_user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Sunil Kumar",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "kumar.sunil.nat@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "7791975112",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "Male",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "Active",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
